@@ -1,5 +1,17 @@
 .container {
+  margin-top: 40px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
-  width: 85%;
+  width: 90%;
+  background-color: #eaeaea;
+  border-radius: 15px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 8px 8px 8px #cbced1,
+              inset -8px -8px 8px #ffffff;
+}
+@media (max-width: 770px) {
+  .container {
+    width: 100%;
+  }
 }
